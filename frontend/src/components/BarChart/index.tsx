@@ -3,9 +3,9 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import Chart from "react-apexcharts";
 
-import { SaleSuccess } from "types/saleSuccess";
 import { round } from "utils/format";
 import { BASE_URL } from "utils/requests";
+import { SaleSuccess } from "types/sale";
 
 type LabelsData = {
   categories: string[];
